@@ -10,12 +10,19 @@ and delete companies, orders, and countries, as well as view detailed informatio
 Installation
 
 1.Clone the repository to your local machine.
-2.Install PHP, Composer, and Laravel if you haven't already.
+
+2.Install PHP, Composer.
+
 3.Run composer install to install project dependencies.
+
 4.Configure your environment variables in the .env file, including database settings.
+
 5.Run php artisan migrate to migrate the database tables.
+
  Run php artisan db:seed to seed the database with sample data.
+ 
 6.Start the development server using php artisan serve.
+
 7.Access the application in your web browser at http://localhost:8000 or your specified port
 
 
