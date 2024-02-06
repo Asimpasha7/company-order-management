@@ -1,9 +1,12 @@
 Company Order Management System
 Overview
-The Company Order Management System is a web application designed to manage companies, their orders, and the countries they operate in. This system provides functionalities to add, edit, and delete companies, orders, and countries, as well as view detailed information about each entity.
+The Company Order Management System is a web application designed to manage companies, their orders, 
+and the countries they operate in. This system provides functionalities to add, edit, 
+and delete companies, orders, and countries, as well as view detailed information about each entity.
 
 
 Installation
+
 1.Clone the repository to your local machine.
 2.Install PHP, Composer, and Laravel if you haven't already.
 3.Run composer install to install project dependencies.
@@ -15,9 +18,11 @@ Installation
 
 
 Companies API Endpoint:
+
 URL: http://localhost:8000/api/companies
 Description: This endpoint allows you to perform CRUD operations on companies.
 
 Orders API Endpoint:
+
 URL: http://localhost:8000/api/orders
 Description: This endpoint allows you to perform CRUD operations on orders
