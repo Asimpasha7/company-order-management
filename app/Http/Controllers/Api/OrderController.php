@@ -36,7 +36,7 @@ class OrderController extends Controller
             'city_from' => 'required',
             'city_to' => 'required',
             'price' => 'required|numeric',
-            'order_images' => 'required|json',
+            'order_images' => 'required',
             'company_id' => 'required|exists:companies,id',
         ]);
 
@@ -54,7 +54,7 @@ class OrderController extends Controller
         $validator = Validator::make($request->all(), [
             'order_number' => 'unique:orders',
             'price' => 'numeric',
-            'order_images' => 'json',
+            'order_images' => 'required',
             'company_id' => 'exists:companies,id',
         ]);
 

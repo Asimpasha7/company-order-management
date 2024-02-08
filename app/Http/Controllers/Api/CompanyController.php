@@ -94,7 +94,6 @@ class CompanyController extends Controller
     public function test(){
 
         // dd('hello');
-
         return response()->json(['message' => 'Test endpoint is working!']);
     }
 }
